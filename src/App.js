@@ -1,10 +1,13 @@
 import React from "react";
+import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import data from "./data.json"; 
+import Navigation from "./component/Navigation";
 
 function App() {
   return (
     <div className="App">
+       <Navigation />  
        {Object.entries(data).map(([key, items]) => (
             <table border="1" key={key}>
         
