@@ -1,16 +1,13 @@
 .hero {
   display: flex;
   align-items: center;
-  min-height: 80vh;
-  padding: 16px 18px;
-  max-width: 1100px;
-  margin: 18px auto;
+  width: 90%;     
+  padding: 40px 80px; 
   gap: 38px;
-  background-color: #e8e8e8;
-  border-radius: 20px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
-  overflow: hidden;
+  background-color: #f8f8f8;
+  border-radius: 10px;   
 }
+
 
 .hero-content {
   flex: 1;
