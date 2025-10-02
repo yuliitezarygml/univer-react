@@ -3,15 +3,16 @@ import './App.css';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Brands from './components/Brands';
-import Models from "./components/models";
-
+import Cards from "./components/Cards";
+import Subscribe from './components/Subscribe'
 function App() {
   return (
     <div className="App">
       <Header />
       <Hero />
       <Brands />
-        <Models />
+<Cards/>
+        <Subscribe/>
     </div>
   );
 }

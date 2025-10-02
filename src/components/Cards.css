@@ -1,0 +1,92 @@
+.cards-section {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.cards-title {
+    font-size: 24px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color: #000;
+}
+
+.cards {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    flex-wrap: wrap; /* для адаптива */
+}
+
+.card {
+    flex: 1;
+    min-width: 280px;
+    max-width: 350px;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: left;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.card-img {
+    width: 100%;
+    display: block;
+    border-radius: 12px 12px 0 0;
+}
+
+.card-content {
+    padding: 15px;
+    position: relative;
+}
+
+.card-name {
+    font-size: 16px;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 6px;
+}
+
+.card-subtitle {
+    font-size: 14px;
+    color: #666;
+}
+
+/* стрелочка справа */
+.arrow {
+    font-size: 18px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    color: #111;
+    transition: transform 0.3s ease;
+}
+
+.card:hover .arrow {
+    transform: translateX(5px);
+}
+
+/* 📱 адаптив */
+@media (max-width: 1024px) {
+    .cards {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        max-width: 90%;
+    }
+}

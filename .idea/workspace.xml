@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d394689-818a-46dd-abf2-bb424d81c432" name="Changes" comment="brands">
-      <change afterPath="$PROJECT_DIR$/src/components/models.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/models.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Cards.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Cards.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Subscribe.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Subscribe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/models/Rectangle20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/models/Rectangle21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/models/Rectangle22.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/models.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/models.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +64,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/home/yuliitezary/WebstormProjects/univer-react/src/img/brands",
+    "last_opened_file_path": "/home/yuliitezary/WebstormProjects/univer-react/src/img/models",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -78,6 +85,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/img/models" />
       <recent name="$PROJECT_DIR$/src/img/brands" />
       <recent name="$PROJECT_DIR$/src/img" />
     </key>
@@ -102,7 +110,7 @@
       <workItem from="1759381991292" duration="186000" />
       <workItem from="1759382654008" duration="4049000" />
       <workItem from="1759388047507" duration="1840000" />
-      <workItem from="1759390896668" duration="1820000" />
+      <workItem from="1759390896668" duration="3755000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <option name="closed" value="true" />
@@ -160,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759392125873</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="brands">
+      <option name="closed" value="true" />
+      <created>1759392748166</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1759392748166</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,0 +1,51 @@
+.subscribe-section {
+    background-color: #e8c93f; /* жёлтый фон */
+    text-align: center;
+    padding: 60px 20px;
+    color: white;
+}
+
+.subscribe-title {
+    font-size: 28px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.subscribe-subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    color: #f5f5f5;
+    margin-bottom: 30px;
+}
+
+.subscribe-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap; /* чтобы на телефоне переносилось */
+}
+
+.subscribe-input {
+    padding: 12px 16px;
+    border: none;
+    border-radius: 6px;
+    width: 250px;
+    font-size: 14px;
+    outline: none;
+}
+
+.subscribe-button {
+    padding: 12px 24px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.subscribe-button:hover {
+    background-color: #333;
+}
