@@ -1,0 +1,16 @@
+/* Стили для главного компонента App */
+
+/* Основной контейнер приложения */
+.App {
+  /* Убираем отступы */
+  margin: 0;
+  padding: 0;
+  /* Минимальная высота на весь экран */
+  min-height: 100vh;
+  /* Шрифт для всего приложения */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  /* Светло-серый фон для всего сайта */
+  background-color: #fafafa;
+}
