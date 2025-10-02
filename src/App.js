@@ -5,6 +5,9 @@ import Hero from './components/Hero';
 import Brands from './components/Brands';
 import Cards from "./components/Cards";
 import Subscribe from './components/Subscribe'
+import Cardsgirl from './components/Cardsgirl';
+
+
 function App() {
   return (
     <div className="App">
@@ -13,6 +16,7 @@ function App() {
       <Brands />
 <Cards/>
         <Subscribe/>
+        <Cardsgirl/>
     </div>
   );
 }

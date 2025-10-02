@@ -1,10 +1,10 @@
-.cards-section {
+.cardsgirl-section {
     max-width: 1200px;
     margin: 60px auto;
     padding: 0 20px;
 }
 
-.cards-title {
+.cardsgirl-title {
     font-size: 24px;
     font-weight: 900;
     text-transform: uppercase;
@@ -12,17 +12,17 @@
     color: #000;
 }
 
-.cards {
+.cardsgirl-wrapper {
     display: flex;
     gap: 30px;
     justify-content: space-between;
-    flex-wrap: wrap; /* для адаптива */
+    flex-wrap: wrap;
 }
 
-.card {
+.cardsgirl-item {
     flex: 1;
-    min-width: 280px;
-    max-width: 350px;
+    min-width: 480px;
+    max-width: 650px;
     background: #fff;
     border-radius: 12px;
     overflow: hidden;
@@ -31,35 +31,36 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.card:hover {
+.cardsgirl-item:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
 }
 
-.card-img {
+.cardsgirl-img {
     width: 100%;
+    height: auto;
     display: block;
     border-radius: 12px 12px 0 0;
 }
 
-.card-content {
+.cardsgirl-content {
     padding: 15px;
     position: relative;
 }
 
-.card-name {
+.cardsgirl-name {
     font-size: 16px;
     font-weight: 700;
     color: #111;
     margin-bottom: 6px;
 }
 
-.card-subtitle {
+.cardsgirl-subtitle {
     font-size: 14px;
     color: #666;
 }
 
-.arrow {
+.cardsgirl-arrow {
     font-size: 18px;
     position: absolute;
     right: 20px;
@@ -68,23 +69,23 @@
     transition: transform 0.3s ease;
 }
 
-.card:hover .arrow {
+.cardsgirl-item:hover .cardsgirl-arrow {
     transform: translateX(5px);
 }
 
 @media (max-width: 1024px) {
-    .cards {
+    .cardsgirl-wrapper {
         justify-content: center;
     }
 }
 
 @media (max-width: 768px) {
-    .cards {
+    .cardsgirl-wrapper {
         flex-direction: column;
         align-items: center;
     }
 
-    .card {
+    .cardsgirl-item {
         max-width: 90%;
     }
 }

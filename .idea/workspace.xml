@@ -4,18 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d394689-818a-46dd-abf2-bb424d81c432" name="Changes" comment="brands">
-      <change afterPath="$PROJECT_DIR$/src/components/Cards.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Cards.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Subscribe.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Subscribe.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/models/Rectangle20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/models/Rectangle21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/models/Rectangle22.png" afterDir="false" />
+    <list default="true" id="2d394689-818a-46dd-abf2-bb424d81c432" name="Changes" comment="Subscribe">
+      <change afterPath="$PROJECT_DIR$/src/components/Cardsgirl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Cardsgirl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/models/Rectangle49.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/models/Rectangle50.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/models.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/models.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cards.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cards.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Subscribe.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Subscribe.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +83,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/img/models" />
+      <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/img/brands" />
       <recent name="$PROJECT_DIR$/src/img" />
     </key>
@@ -110,7 +108,7 @@
       <workItem from="1759381991292" duration="186000" />
       <workItem from="1759382654008" duration="4049000" />
       <workItem from="1759388047507" duration="1840000" />
-      <workItem from="1759390896668" duration="3755000" />
+      <workItem from="1759390896668" duration="5522000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <option name="closed" value="true" />
@@ -176,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759392748166</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Subscribe">
+      <option name="closed" value="true" />
+      <created>1759402829750</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1759402829750</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +191,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add" />
     <MESSAGE value="brands" />
-    <option name="LAST_COMMIT_MESSAGE" value="brands" />
+    <MESSAGE value="Subscribe" />
+    <option name="LAST_COMMIT_MESSAGE" value="Subscribe" />
   </component>
 </project>

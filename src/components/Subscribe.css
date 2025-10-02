@@ -1,5 +1,5 @@
 .subscribe-section {
-    background-color: #e8c93f; /* жёлтый фон */
+    background-color: #e8c93f;
     text-align: center;
     padding: 60px 20px;
     color: white;
@@ -23,7 +23,7 @@
     display: flex;
     justify-content: center;
     gap: 10px;
-    flex-wrap: wrap; /* чтобы на телефоне переносилось */
+    flex-wrap: wrap;
 }
 
 .subscribe-input {
